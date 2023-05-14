@@ -1,0 +1,84 @@
+.App {
+  /* text-align: center; */
+  font-family: 'Roboto', sans-serif;
+}
+ label{
+  color: orangered;
+ }
+ .buton{
+  display: none;
+ }
+ .box{
+  transition: all ease 0.5s;
+ }
+ .box:hover{
+  transform: translate(0px, -10px);
+  background-color: blanchedalmond;
+  transition: all ease 0.5s;
+ }
+ @media only screen and (max-width: 768px) {
+  .buton {
+      display: block;
+    }
+ }
+
+.button{
+  background-color: orangered;
+  color:wheat;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li{
+  padding: 2%;
+  border-radius: 30px;
+  background-color: rgb(244, 208, 8);
+  transition: all ease 0.5s;
+}
+
+li:hover{
+  transition: all ease 0.5s;
+  scale: 1.1;
+  transform: translate(10px,0px);
+  color: white;
+  background-color: orangered;
+}
+li:hover i{
+  transition: all ease 0.5s;
+  scale: 1.1;
+  color: white;
+  background-color: orangered;
+}
